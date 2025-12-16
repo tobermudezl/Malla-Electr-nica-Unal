@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.nota {
+  text-align: center;
+  font-size: 14px;
+}
+
+.malla {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.semestre {
+  background: white;
+  border-radius: 8px;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.semestre h3 {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.materia {
+  padding: 6px;
+  margin: 5px 0;
+  border-radius: 6px;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.materia:hover {
+  outline: 2px solid #000;
+}
+
+/* Componentes */
+.CF   { background: #ffd54f; }
+.CFB  { background: #4fc3f7; }
+.CFDP { background: #1e3a8a; color: white; }
+.CN   { background: #66bb6a; }
+.CLE  { background: #26c6da; }
+
+.detalle {
+  margin-top: 25px;
+  padding: 15px;
+  background: white;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
