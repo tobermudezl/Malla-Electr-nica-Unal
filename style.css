@@ -60,3 +60,17 @@ h1 {
   border-radius: 8px;
   border: 1px solid #ccc;
 }
+
+.bloqueada {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.disponible {
+  outline: 2px solid #2e7d32;
+}
+
+.aprobada {
+  background: #2e7d32 !important;
+  color: white;
+}
